@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+  
+}
+
+.search-form{
+  min-height: 10vh;
+  max-width: 80%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.search-bar{
+  margin:2rem;
+  padding:10px;
+  width:30%;
+}
+.search-button{
+  padding:10px;
+  width:9%;
+  background:khaki;
+  color: black;
+  font-size:large;
+}
+button:hover{
+  background:crimson;
+}
+
+.recipe{
+  margin:2rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+}
